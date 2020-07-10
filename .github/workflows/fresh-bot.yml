@@ -3,7 +3,7 @@ name: Fresh-bot
 on:
   schedule:
     # Run every day at 1am
-    - cron: '* * * * *'
+    - cron: '0 1 * * *'
   push:
     branches: [ master ]
 
