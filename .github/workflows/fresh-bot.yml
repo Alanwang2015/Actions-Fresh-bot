@@ -15,4 +15,4 @@ jobs:
       - name: Bump stale issues
         uses: c-hive/fresh-bot@v1
         with:
-          GITHUB_TOKEN: 1b7be1b17230270ac8de57c9cfc3f21092067674 # ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
