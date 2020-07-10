@@ -4,6 +4,8 @@ on:
   schedule:
     # Run every day at 1am
     - cron: '* * * * *'
+  push:
+    [master]
 
 jobs:
   fresh-bot:
