@@ -1,3 +1,3 @@
 # Actions-Fresh-bot
 
-hello world
+hello world.
